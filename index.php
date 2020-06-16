@@ -8,8 +8,8 @@
     <script>
     function makeApiCall(action='read') {
    // alert(action);return false;
-      var ssid = '1XvYtWsLMGknU94JD-aZyOU7TqTiSKI56GHgGqTo6EGc';
-            var rng = 'sample';
+      var ssid = 'XXX'; // your spreadsheet ID
+            var rng = 'XXX'; // your spreadsheet name
             if(action=='write'){
               // alert('if');return false;
               var vals = new Array(6);
@@ -37,10 +37,10 @@
               // alert('ele');return false;
               var params = {
                 // The ID of the spreadsheet to retrieve data from.
-                spreadsheetId: '1XvYtWsLMGknU94JD-aZyOU7TqTiSKI56GHgGqTo6EGc',  // TODO: Update placeholder value.
+                spreadsheetId: 'XXX',  // your spreadsheet ID
 
                 // The A1 notation of the values to retrieve.
-                range: 'sample',  // TODO: Update placeholder value.
+                range: 'XXX',  // your spreadsheet name
               };
 
                 var request = gapi.client.sheets.spreadsheets.values.get(params);
@@ -66,9 +66,9 @@
     
 
     function initClient() {
-       var API_KEY = 'AIzaSyC6umd_deHDT43Vf0r-rnMAvRagM8ROdg0';  // TODO: Update placeholder with desired API key.
+       var API_KEY = 'YYYY';  // TODO: Update placeholder with desired API key.
 
-      var CLIENT_ID = '231839060881-i3ac7svv2nevorcg0ka8bas6rvqfolgd.apps.googleusercontent.com';  // TODO: Update placeholder with 
+      var CLIENT_ID = 'YYY';  // TODO: Update placeholder with 
 
       // TODO: Authorize using one of the following scopes:
       //   'https://www.googleapis.com/auth/drive'
