@@ -1,6 +1,5 @@
 <!--
-    Code By MAnikandan.R
-    DevOps
+    Code By Manikandan.R
     -->
 <html>
   <head></head>
